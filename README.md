@@ -2,15 +2,38 @@
 Numerical experiments for the paper [U.S. Fjordholm, K. Lye, S. Mishra, Numerical approximation of statistical solutions of scalar conservation laws arXiv:1710.11173 [math.NA]](https://arxiv.org/abs/1710.11173).
 
 
-## Latex
-Note that these plots needs LaTeX installed. On some clusters, LaTeX is installed, but with a non functioning version. You can [download LaTeX from the TeXLive homepage](https://www.tug.org/texlive/acquire-netinstall.html) To install LaTeX to a local directory on such a cluster (eg. CSCS Daint), do 
+## Installing Alsvinn
 
-    export TEXLIVE_INSTALL_PREFIX=$SCRATCH/texlive
-    export TEXLIVE_INSTALL_TEXDIR=$SCRATCH/texlive/2019
-    
-    wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
-    tar xvf install-tl-unx.tar.gz
-    cd install-tl-<version here>
-    ./install-tl -gui text
-    # Check that everything is OK, then
-    # Press i <ENTER>
+You can either use the [docker file for Alsvinn](https://hub.docker.com/r/alsvinn/) to run these experiments (use version 0.5.3 or later), or compile the alsvinn version under the folder ```alsvinn``.
+
+### Compiling Alsvinn
+
+First make sure you have checked out the submodule containing alsvinn:
+
+    git submodule update --init
+
+Do something like:
+
+    mkdir alsvinn_build_folder
+    cd alsvinn_build_folder
+    cmake ../alsvinn -DCMAKE_BUILD_TYPE=Release -DALSVINN_USE_CUDA=OFF \
+        -DALSVINN_BUILD_TESTS=OFF -DALSVINN_BUILD_DOXYGEN=OFF
+    make
+
+Then go back to the root of this repository, and make sure the pythonpath is set correctly. The pythonpath must contain the ```python``` folder of this repository, and the ```python``` directory of ```alsvinn_build_folder```. To set these, you can simply run
+
+     source source.sh
+     source source_alsvinn.sh
+
+
+## Running the noteboks
+
+First make sure your ```PYTHONPATH``` is correct, so first do something like
+
+    source source.sh
+    source source_alsvinn.sh
+
+then
+
+    cd notebooks
+    jupyter notebook
