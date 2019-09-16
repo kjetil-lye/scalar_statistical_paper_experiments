@@ -814,15 +814,15 @@ table {%
 ]{By Ulrik Skre Fjordholm @ UiO <ulriksf@gmail.com>,
 Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com> and 
 Siddhartha Mishra @ ETHZ <smishra@msam.math.ethz.ch>
-Commit: c54bad49ac70fe51a553c0eb83d6522ec3d6663c
-Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments
-Hostname: eu-c7-106-13};
+Commit: f6b56fb9b490acb3cdf89c5be04fe80be73986f8
+Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments.git
+Hostname: eu-c7-101-07};
 \node at (axis cs:0.2,0.93)[
   scale=0.5,
   anchor=south east,
   text=white!50.19607843137255!black,
   rotate=0.0
-]{@c54b};
+]{@f6b5};
 \node at (axis cs:0.95,0.01)[
   scale=0.15,
   anchor=south east,
@@ -832,9 +832,39 @@ Hostname: eu-c7-106-13};
 ]{By Ulrik Skre Fjordholm @ UiO <ulriksf@gmail.com>,
 Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com> and 
 Siddhartha Mishra @ ETHZ <smishra@msam.math.ethz.ch>
-Commit: c54bad49ac70fe51a553c0eb83d6522ec3d6663c
-Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments
-Hostname: eu-c7-106-13};
+Commit: f6b56fb9b490acb3cdf89c5be04fe80be73986f8
+Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments.git
+Hostname: eu-c7-101-07};
+\node at (axis cs:0.95,0.01)[
+  scale=0.15,
+  anchor=south east,
+  text=white!50.19607843137255!black,
+  rotate=0.0,
+  align=right
+]{By Ulrik Skre Fjordholm @ UiO <ulriksf@gmail.com>,
+Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com> and 
+Siddhartha Mishra @ ETHZ <smishra@msam.math.ethz.ch>
+Commit: f6b56fb9b490acb3cdf89c5be04fe80be73986f8
+Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments.git
+Hostname: eu-c7-101-07};
+\node at (axis cs:0.2,0.93)[
+  scale=0.5,
+  anchor=south east,
+  text=white!50.19607843137255!black,
+  rotate=0.0
+]{@f6b5};
+\node at (axis cs:0.95,0.01)[
+  scale=0.15,
+  anchor=south east,
+  text=white!50.19607843137255!black,
+  rotate=0.0,
+  align=right
+]{By Ulrik Skre Fjordholm @ UiO <ulriksf@gmail.com>,
+Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com> and 
+Siddhartha Mishra @ ETHZ <smishra@msam.math.ethz.ch>
+Commit: f6b56fb9b490acb3cdf89c5be04fe80be73986f8
+Repo: git@github.com:kjetil-lye/scalar_statistical_paper_experiments.git
+Hostname: eu-c7-101-07};
 \end{axis}
 
 \end{tikzpicture}
@@ -846,17 +876,17 @@ Hostname: eu-c7-106-13};
 %% script name: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel_launcher.py
 %% ALWAYS INCLUDE THE COMMENTS WHEN COPYING THIS PLOT
 %% DO NOT REMOVE THE COMMENTS BELOW!
-%% GIT git_commit : c54bad49ac70fe51a553c0eb83d6522ec3d6663c
-%% GIT git_repo_modified : True
+%% GIT git_commit : f6b56fb9b490acb3cdf89c5be04fe80be73986f8
+%% GIT git_repo_modified : False
 %% GIT git_branch : master
-%% GIT git_remote_url : git@github.com:kjetil-lye/scalar_statistical_paper_experiments
-%% GIT git_short_commit : c54b
+%% GIT git_remote_url : git@github.com:kjetil-lye/scalar_statistical_paper_experiments.git
+%% GIT git_short_commit : f6b5
 %% working_directory : /cluster/scratch/klye/scalar_statistical_paper_experiments/notebooks
-%% hostname : eu-c7-106-13
-%% generated_on_date : 2019-07-03 18:31:19.239829
+%% hostname : eu-c7-101-07
+%% generated_on_date : 2019-09-14 20:25:41.606918
 %% accessed_environment:
 %% additional_parameters:
-%%    commandrun=/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/bin/python /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel_launcher.py -f /scratch/94858827.tmpdir/tmpebr88dwh.json
+%%    commandrun=/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/bin/python /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel_launcher.py -f /scratch/100211947.tmpdir/tmp0r4xm1zo.json
 %% python_version: 
 %%    /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/bin/python (Version: 3.6.4 (default, Jul 27 2018, 08:26:25) 
 %%    [GCC 6.3.0])
@@ -923,8 +953,8 @@ Hostname: eu-c7-106-13};
 %%     _sysconfigdata_m_linux_x86_64-linux-gnu: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py)
 %%     runpy: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/runpy.py)
 %%     pkgutil: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/pkgutil.py)
-%%     ipykernel: 5.1.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/__init__.py)
-%%     ipykernel._version: 5.1.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/_version.py)
+%%     ipykernel: 5.1.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/__init__.py)
+%%     ipykernel._version: 5.1.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/_version.py)
 %%     ipykernel.connect: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/connect.py)
 %%     __future__: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/__future__.py)
 %%     json: 2.0.9 (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/json/__init__.py)
@@ -1327,9 +1357,9 @@ Hostname: eu-c7-106-13};
 %%     unicodedata: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so)
 %%     IPython.core.latex_symbols: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/core/latex_symbols.py)
 %%     IPython.utils.generics: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/utils/generics.py)
-%%     jedi: 0.14.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/__init__.py)
+%%     jedi: 0.15.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/__init__.py)
 %%     jedi.api: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/__init__.py)
-%%     parso: 0.5.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/parso/__init__.py)
+%%     parso: 0.5.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/parso/__init__.py)
 %%     parso.parser: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/parso/parser.py)
 %%     parso.tree: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/parso/tree.py)
 %%     parso._compatibility: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/parso/_compatibility.py)
@@ -1392,12 +1422,14 @@ Hostname: eu-c7-106-13};
 %%     jedi.evaluate.docstrings: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/docstrings.py)
 %%     jedi.evaluate.context.function: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/context/function.py)
 %%     jedi.evaluate.parser_cache: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/parser_cache.py)
+%%     jedi.plugins: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/plugins/__init__.py)
 %%     jedi.evaluate.context.instance: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/context/instance.py)
 %%     jedi.evaluate.gradual.typing: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/gradual/typing.py)
 %%     jedi.evaluate.syntax_tree: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/syntax_tree.py)
 %%     jedi.evaluate.finder: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/finder.py)
 %%     jedi.evaluate.gradual.conversion: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/gradual/conversion.py)
 %%     jedi.evaluate.gradual.annotation: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/gradual/annotation.py)
+%%     jedi.evaluate.context.decorator: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/context/decorator.py)
 %%     jedi.api.keywords: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/keywords.py)
 %%     pydoc_data: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/pydoc_data/__init__.py)
 %%     pydoc_data.topics: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/pydoc_data/topics.py)
@@ -1405,6 +1437,7 @@ Hostname: eu-c7-106-13};
 %%     jedi.evaluate.compiled.mixed: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/compiled/mixed.py)
 %%     jedi.api.helpers: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/helpers.py)
 %%     jedi.api.completion: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/completion.py)
+%%     jedi.api.file_name: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/file_name.py)
 %%     jedi.api.environment: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/environment.py)
 %%     filecmp: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/filecmp.py)
 %%     jedi.evaluate.compiled.subprocess: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/compiled/subprocess/__init__.py)
@@ -1413,6 +1446,9 @@ Hostname: eu-c7-106-13};
 %%     jedi.api.project: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/api/project.py)
 %%     jedi.evaluate.usages: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/usages.py)
 %%     jedi.evaluate.gradual.utils: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/evaluate/gradual/utils.py)
+%%     jedi.plugins.registry: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/plugins/registry.py)
+%%     jedi.plugins.stdlib: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/plugins/stdlib.py)
+%%     jedi.plugins.flask: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jedi/plugins/flask.py)
 %%     IPython.terminal.ptutils: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/terminal/ptutils.py)
 %%     IPython.terminal.shortcuts: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/terminal/shortcuts.py)
 %%     IPython.terminal.magics: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/terminal/magics.py)
@@ -1472,10 +1508,10 @@ Hostname: eu-c7-106-13};
 %%     IPython.extensions: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/extensions/__init__.py)
 %%     IPython.extensions.storemagic: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/extensions/storemagic.py)
 %%     IPython.utils.frame: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/utils/frame.py)
-%%     jupyter_client: 5.2.4 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/__init__.py)
-%%     jupyter_client._version: 5.2.4 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/_version.py)
+%%     jupyter_client: 5.3.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/__init__.py)
+%%     jupyter_client._version: 5.3.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/_version.py)
 %%     jupyter_client.connect: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/connect.py)
-%%     zmq: 18.0.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/__init__.py)
+%%     zmq: 18.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/__init__.py)
 %%     ctypes: 1.1.0 (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/ctypes/__init__.py)
 %%     _ctypes: 1.1.0 (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so)
 %%     ctypes._endian: Unknown (/cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/ctypes/_endian.py)
@@ -1485,7 +1521,7 @@ Hostname: eu-c7-106-13};
 %%     zmq.backend.cython.constants: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/constants.cpython-36m-x86_64-linux-gnu.so)
 %%     cython_runtime: Unknown (Unknown)
 %%     zmq.backend.cython.error: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/error.cpython-36m-x86_64-linux-gnu.so)
-%%     _cython_0_29_10: Unknown (Unknown)
+%%     _cython_0_29_13: Unknown (Unknown)
 %%     zmq.backend.cython.message: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/message.cpython-36m-x86_64-linux-gnu.so)
 %%     zmq.error: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/error.py)
 %%     zmq.backend.cython.context: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/context.cpython-36m-x86_64-linux-gnu.so)
@@ -1495,7 +1531,7 @@ Hostname: eu-c7-106-13};
 %%     zmq.backend.cython._version: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/_version.cpython-36m-x86_64-linux-gnu.so)
 %%     zmq.backend.cython._device: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/_device.cpython-36m-x86_64-linux-gnu.so)
 %%     zmq.backend.cython._proxy_steerable: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/backend/cython/_proxy_steerable.cpython-36m-x86_64-linux-gnu.so)
-%%     zmq.sugar: 18.0.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/__init__.py)
+%%     zmq.sugar: 18.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/__init__.py)
 %%     zmq.sugar.constants: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/constants.py)
 %%     zmq.utils: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/utils/__init__.py)
 %%     zmq.utils.constant_names: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/utils/constant_names.py)
@@ -1507,7 +1543,7 @@ Hostname: eu-c7-106-13};
 %%     zmq.utils.strtypes: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/utils/strtypes.py)
 %%     zmq.sugar.frame: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/frame.py)
 %%     zmq.sugar.tracker: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/tracker.py)
-%%     zmq.sugar.version: 18.0.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/version.py)
+%%     zmq.sugar.version: 18.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/version.py)
 %%     zmq.sugar.stopwatch: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/zmq/sugar/stopwatch.py)
 %%     jupyter_client.localinterfaces: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_client/localinterfaces.py)
 %%     jupyter_core: 4.5.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/jupyter_core/__init__.py)
@@ -1587,12 +1623,13 @@ Hostname: eu-c7-106-13};
 %%     ipykernel.codeutil: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/codeutil.py)
 %%     IPython.core.completerlib: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/core/completerlib.py)
 %%     storemagic: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/extensions/storemagic.py)
-%%     ipywidgets: 7.4.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/__init__.py)
-%%     ipywidgets._version: 7.4.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/_version.py)
+%%     ipywidgets: 7.5.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/__init__.py)
+%%     ipywidgets._version: 7.5.1 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/_version.py)
 %%     ipywidgets.widgets: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/__init__.py)
 %%     ipywidgets.widgets.widget: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget.py)
 %%     ipywidgets.widgets.domwidget: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/domwidget.py)
 %%     ipywidgets.widgets.trait_types: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/trait_types.py)
+%%     ipywidgets.widgets.util: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/util.py)
 %%     ipywidgets.widgets.widget_layout: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_layout.py)
 %%     ipywidgets.widgets.widget_style: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_style.py)
 %%     ipywidgets.widgets.valuewidget: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/valuewidget.py)
@@ -1614,6 +1651,8 @@ Hostname: eu-c7-106-13};
 %%     ipywidgets.widgets.interaction: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/interaction.py)
 %%     ipywidgets.widgets.widget_link: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_link.py)
 %%     ipywidgets.widgets.widget_media: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_media.py)
+%%     ipywidgets.widgets.widget_templates: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_templates.py)
+%%     ipywidgets.widgets.widget_upload: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipywidgets/widgets/widget_upload.py)
 %%     numpy: 1.16.4 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/numpy/__init__.py)
 %%     numpy._globals: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/numpy/_globals.py)
 %%     numpy.__config__: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/numpy/__config__.py)
@@ -1734,7 +1773,7 @@ Hostname: eu-c7-106-13};
 %%     matplotlib.cbook.deprecation: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py)
 %%     matplotlib.rcsetup: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/rcsetup.py)
 %%     matplotlib.fontconfig_pattern: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/fontconfig_pattern.py)
-%%     pyparsing: 2.4.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/pyparsing.py)
+%%     pyparsing: 2.4.2 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/pyparsing.py)
 %%     matplotlib.colors: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/colors.py)
 %%     matplotlib._color_data: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/_color_data.py)
 %%     cycler: 0.10.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/cycler.py)
@@ -1777,8 +1816,8 @@ Hostname: eu-c7-106-13};
 %%     matplotlib.backend_tools: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/backend_tools.py)
 %%     matplotlib.tight_bbox: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/tight_bbox.py)
 %%     matplotlib.widgets: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/widgets.py)
-%%     PIL: 6.0.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/__init__.py)
-%%     PIL._version: 6.0.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/_version.py)
+%%     PIL: 6.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/__init__.py)
+%%     PIL._version: 6.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/_version.py)
 %%     matplotlib._image: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/_image.cpython-36m-x86_64-linux-gnu.so)
 %%     matplotlib.style: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/style/__init__.py)
 %%     matplotlib.style.core: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/style/core.py)
@@ -1823,7 +1862,7 @@ Hostname: eu-c7-106-13};
 %%     ipykernel.pylab.backend_inline: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/pylab/backend_inline.py)
 %%     matplotlib.backends.backend_agg: 3.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py)
 %%     matplotlib.backends._backend_agg: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/matplotlib/backends/_backend_agg.cpython-36m-x86_64-linux-gnu.so)
-%%     PIL.Image: 6.0.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/Image.py)
+%%     PIL.Image: 6.1.0 (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/Image.py)
 %%     PIL._util: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/_util.py)
 %%     PIL.ImageMode: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/ImageMode.py)
 %%     PIL.TiffTags: Unknown (/cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/PIL/TiffTags.py)
@@ -2151,7 +2190,7 @@ Hostname: eu-c7-106-13};
 %%     [function: savePlot, line: 310, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/python/plot_info.py]
 %%     [function: savePlot, line: 332, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/python/plot_info.py]
 %%     [function: showAndSave, line: 344, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/python/plot_info.py]
-%%     [function: convergence, line: 42, file: <ipython-input-5-97adfc0d81fa>]
+%%     [function: convergence, line: 43, file: <ipython-input-5-6791c7a72c8c>]
 %%     [function: <module>, line: 16, file: <ipython-input-6-c9b2051ae4b1>]
 %%     [function: run_code, line: 3296, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/core/interactiveshell.py]
 %%     [function: run_ast_nodes, line: 3220, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/IPython/core/interactiveshell.py]
@@ -2175,7 +2214,7 @@ Hostname: eu-c7-106-13};
 %%     [function: _run_once, line: 1431, file: /cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/asyncio/base_events.py]
 %%     [function: run_forever, line: 421, file: /cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/asyncio/base_events.py]
 %%     [function: start, line: 148, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/tornado/platform/asyncio.py]
-%%     [function: start, line: 505, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/kernelapp.py]
+%%     [function: start, line: 563, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel/kernelapp.py]
 %%     [function: launch_instance, line: 658, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/traitlets/config/application.py]
 %%     [function: <module>, line: 16, file: /cluster/scratch/klye/scalar_statistical_paper_experiments/.venv/lib/python3.6/site-packages/ipykernel_launcher.py]
 %%     [function: _run_code, line: 85, file: /cluster/spack/apps/linux-centos7-x86_64/gcc-6.3.0/python-3.6.4-5oidn2424ombqowemlqfwbc2zuo5d56s/lib/python3.6/runpy.py]
