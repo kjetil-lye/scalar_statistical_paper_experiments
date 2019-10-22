@@ -1,6 +1,7 @@
 AUTHORS = "Ulrik Skre Fjordholm @ UiO <ulriksf@gmail.com>,\n"\
           "Kjetil Olsen Lye @ ETHZ <kjetil.o.lye@gmail.com> and \n"\
           "Siddhartha Mishra @ ETHZ <smishra@msam.math.ethz.ch>"
+import latex_plots
 import numpy
 import glob
 import sys
@@ -239,6 +240,7 @@ def savePlot(name):
     else:
         text_function = ax.text
     try:
+        informationText = informationText.replace("_", "\\_")
 
         text_function(0.95, 0.01, informationText,
                       fontsize=3, color=textcolor,
