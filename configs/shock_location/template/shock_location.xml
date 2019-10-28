@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<config>
+	<fvm>
+		<name>shocklocation</name>
+		<platform>cpu</platform>
+		<grid>
+			<lowerCorner>0.0 0.0 0.0</lowerCorner>
+			<upperCorner>1.0 0.0 0.0</upperCorner>
+			<dimension>128 1 1</dimension>
+		</grid>
+		<boundary>neumann</boundary>
+		<flux>godunov</flux>
+		<endTime>0.2</endTime>
+		<equation>burgers</equation>
+		<reconstruction>none</reconstruction>
+		<cfl>auto</cfl>
+		<integrator>auto</integrator>
+		<initialData>
+			<python>shock_location.py</python>
+			<parameters>
+				<parameter>
+					<name>X</name>
+					<length>1</length>
+					<value>0</value>
+				</parameter>
+			</parameters>
+		</initialData>
+		<writer>
+			<basename>shock_location</basename>
+			<type>netcdf</type>
+			<numberOfSaves>1</numberOfSaves>
+		</writer>
+	</fvm>
+	<uq>
+		<samples>128</samples>
+		<generator>auto</generator>
+		<parameters>
+			<parameter>
+				<name>X</name>
+				<length>1</length>
+				<type>uniform</type>
+			</parameter>
+		</parameters>
+		<stats/>
+		<sampleStart>0</sampleStart>
+	</uq>
+</config>
