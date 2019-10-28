@@ -68,7 +68,9 @@ def compute_speedup(resolutions, variance_single_level, variance_multilevel):
     work = resolutions**2
     
     best_speedup = speedup_mlmc(variance_single_level, variance_multilevel, work)
-    
+
+    print(best_speedup['M'])
+    print(np.array(best_speedup['M'])[:-1]/np.array(best_speedup['M'])[1:])
     
     return best_speedup['Speedup']
     
@@ -195,11 +197,11 @@ def plot_variance_decay(title, resolutions, sample_computer, norm_ord, name):
         
     fig, ax1 = plt.subplots()
     ax1.loglog(resolutions, variances, '-o', 
-               label=f'$||\\mathrm{{Var}}({name.format(N="N")})||_{{L^{{{norm_ord}}}}}$')
+               label=f'$\\|\\mathrm{{Var}}({name.format(N="N")})\\|_{{L^{{{norm_ord}}}}}$')
     
     
     ax1.loglog(resolutions[1:], variances_details, '-*', 
-               label=f'$||\\mathrm{{Var}}({name.format(N="N")}-{name.format(N="N/2")})||_{{L^{{{norm_ord}}}}}$',
+               label=f'$\\|\\mathrm{{Var}}({name.format(N="N")}-{name.format(N="N/2")})\\|_{{L^{{{norm_ord}}}}}$',
                basex=2, basey=2)
     
     ax1.legend()
@@ -224,18 +226,19 @@ def plot_variance_decay(title, resolutions, sample_computer, norm_ord, name):
 
     
     
-    ax2.plot(resolutions, speedups, '--x', label='MLMC Speedup')
+    ax2.loglog(resolutions, speedups, '--x', label='MLMC Speedup')
 
     
     ax2.legend(loc=1)
 
     ax2.set_xscale("log", basex=2)
+    ax2.set_yscale("log", basex=2)
     ax2.set_xticks(resolutions, [f'${r}$' for r in resolutions])
     ax2.set_ylabel("Potential MLMC speedup")
             
     ylims = ax2.get_ylim()
     
-    ax2.set_ylim([min(ylims[0], 0.5), max(ylims[1], 3)])
+    ax2.set_ylim([min(ylims[0], 0.5), max(ylims[1], 4.4)])
     plt.xticks(resolutions, [f'${r}$' for r in resolutions])
     
     plot_info.savePlot(f'variance_decay_with_speedup_{name}_{norm_ord}_{title}')
