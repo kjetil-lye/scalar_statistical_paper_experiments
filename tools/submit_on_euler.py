@@ -47,6 +47,7 @@ Submits the configuration file leonhard. NOTE: Will run in folder of configurati
     job_chain = os.path.abspath(configuration_file)
     job_chain = ''.join(ch for ch in job_chain if ch.isalnum() or ch == '_')
 
+    r_command_append = 'rusage[mem=2048]'
     command_to_run = [
 
         'bsub',
