@@ -82,7 +82,7 @@ def make_functional_element_direction(config, p, number_of_h, number_of_saves=8)
     type_node = create_node_with_text(config, "type", "netcdf")
 
     basename_node = create_node_with_text(config, 'basename',
-                                          f"{basename}_functional_structure_cube_{p}")
+                                          f"{basename}_functional_structure_direction_{p}")
 
     functional.appendChild(name_node)
     functional.appendChild(direction_node)
