@@ -71,7 +71,7 @@
         <numberOfSaves>8</numberOfSaves>
         <writer>
           <type>netcdf</type>
-          <basename>brownian_functional_structure_cube_1</basename>
+          <basename>brownian_functional_structure_direction_1</basename>
         </writer>
       </functional>
       <functional>
@@ -104,7 +104,7 @@
         <numberOfSaves>8</numberOfSaves>
         <writer>
           <type>netcdf</type>
-          <basename>brownian_functional_structure_cube_2</basename>
+          <basename>brownian_functional_structure_direction_2</basename>
         </writer>
       </functional>
       <functional>
@@ -137,7 +137,7 @@
         <numberOfSaves>8</numberOfSaves>
         <writer>
           <type>netcdf</type>
-          <basename>brownian_functional_structure_cube_3</basename>
+          <basename>brownian_functional_structure_direction_3</basename>
         </writer>
       </functional>
       <functional>
