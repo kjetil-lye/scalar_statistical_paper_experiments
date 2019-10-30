@@ -11,8 +11,7 @@ def init_global(u, nx, ny, nz, ax, ay, az, bx, by, bz):
     # X is uniform, so Y will be Gaussian
     Y = scipy.stats.norm.ppf(X)
     # Uses fbmpy, available from https://github.com/kjetil-lye/fractional_brownian_motion
-    B_max = max(abs(fbmpy.fractional_brownian_bridge_1d(H, Y.shape[0], Y)))
-    B = fbmpy.fractional_brownian_bridge_1d(H, nx, Y)/B_max
+    B = fbmpy.fractional_brownian_bridge_1d(H, nx, Y)
 
     u[:,0,0]= B[:-1]
 
