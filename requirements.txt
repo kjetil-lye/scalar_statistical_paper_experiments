@@ -1,6 +1,6 @@
 dicttoxml==1.7.4
 GitPython==2.1.11
-ipython==7.5.0
+ipython==7.16.3
 jupyter==1.0.0
 matplotlib==3.1.0
 matplotlib2tikz==0.7.4
